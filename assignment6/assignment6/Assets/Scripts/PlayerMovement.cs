@@ -72,11 +72,11 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.SetActive(false);
 
-            MeteorCount = MeteorCount + 1;
+            MeteorCount = MeteorCount + 3;
 
             SetCountText();
 
-            TotalScoreCount = TotalScoreCount + 1;
+            TotalScoreCount = TotalScoreCount + 3;
 
             SetCountText();
         }
@@ -85,11 +85,11 @@ public class PlayerMovement : MonoBehaviour
         {
             other.gameObject.SetActive(false);
 
-            AsteroidCount = AsteroidCount + 1;
+            AsteroidCount = AsteroidCount + 5;
 
             SetCountText();
 
-            TotalScoreCount = TotalScoreCount + 1;
+            TotalScoreCount = TotalScoreCount + 5;
 
             SetCountText();
         }
